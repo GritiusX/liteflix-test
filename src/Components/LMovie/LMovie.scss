@@ -1,0 +1,78 @@
+.movie-container {
+	background-image: url("../../assets/sock_noun_001_15890.jpg");
+	width: 100%;
+	height: 172px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+}
+.movie {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background: linear-gradient(
+		360deg,
+		rgba(36, 36, 36, 1) 5%,
+		rgba(0, 0, 0, 0) 100%
+	);
+	width: 100%;
+	height: 100%;
+	row-gap: 24px;
+	align-items: center;
+	&.test {
+	}
+}
+.icon-size {
+	height: 48px;
+	width: 48px;
+}
+
+.movie-text {
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 4px;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-bottom: 32px;
+}
+@media only screen and (min-width: 1024px) {
+	.movie-container {
+		background-image: url("../../assets/sock_noun_001_15890.jpg");
+		width: 100%;
+		height: 9.125rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 4px;
+	}
+	.movie {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		background: linear-gradient(
+			360deg,
+			rgba(36, 36, 36, 1) 5%,
+			rgba(0, 0, 0, 0) 100%
+		);
+		width: 100%;
+		height: 100%;
+		row-gap: 24px;
+		align-items: center;
+		&.test {
+		}
+	}
+	.icon-size {
+		height: 2.5rem;
+		width: 2.5rem;
+	}
+
+	.movie-text {
+		font-size: 1rem;
+		line-height: 1rem;
+		letter-spacing: 4px;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		margin-bottom: 14px;
+	}
+}

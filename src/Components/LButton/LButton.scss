@@ -1,0 +1,16 @@
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #242424;
+	width: 248px;
+	height: 56px;
+	column-gap: 14px;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 4px;
+}
+.bordered {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(36, 36, 36, 0.5);
+}
